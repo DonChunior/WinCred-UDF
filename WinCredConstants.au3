@@ -25,3 +25,9 @@ Global Const $CRED_TYPE_GENERIC_CERTIFICATE = 5
 Global Const $CRED_TYPE_DOMAIN_EXTENDED = 6
 Global Const $CRED_TYPE_MAXIMUM = 7
 Global Const $CRED_TYPE_MAXIMUM_EX = $CRED_TYPE_MAXIMUM + 1000
+
+;~ Values of the Credential Persist field
+Global Const $CRED_PERSIST_NONE = 0
+Global Const $CRED_PERSIST_SESSION = 1
+Global Const $CRED_PERSIST_LOCAL_MACHINE = 2
+Global Const $CRED_PERSIST_ENTERPRISE = 3
